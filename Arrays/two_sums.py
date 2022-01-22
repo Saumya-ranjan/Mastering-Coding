@@ -5,7 +5,7 @@
 def sums(x):
     target = int(input("enter a target: "))
     for i in range(len(x)):
-        for j in range(len(x)):
+        for j in range(i+1,len(x)):
             if (x[i] + x[j]) == target:
                 print( i, j)
     

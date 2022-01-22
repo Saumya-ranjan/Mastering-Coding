@@ -1,0 +1,12 @@
+So here is my overview what i learn from competitive programming:
+
+1] Using leetcode when the solution is not working it is cause of your printing 
+   returning new elements we should only return nums or any value that is given in
+   problem not the one we initialised.
+
+   so for ex:
+   if def(nums,i->list):
+   then u should do nums.clear()  that will clear the list given in problem
+   then u can append the list with another one that u initialiseed before.
+
+2]
