@@ -1,0 +1,8 @@
+To use return statement that is in a function you can use:
+
+def func():
+    return 'abc'
+
+x = func()    or  print(func())
+print(x)
+

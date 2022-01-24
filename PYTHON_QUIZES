@@ -1,0 +1,113 @@
+Q1. What is an abstract class?
+--> An abstract class exists only so that other 
+   "concrete" classes can inherit from the abstract class.
+
+Q2. What happens when you use the build-in function any() on a list?
+--> The any() function returns True if any item in the list evaluates to True.
+    Otherwise, it returns False.
+
+    if any([True, False, False, False]) == True:
+    print('Yes, there is True')
+
+    >>> Yes, there is True
+
+Q3. What data structure does a binary tree degenerate to if it isn't balanced properly?
+--> linked list
+
+Q4. What statement about static methods is true?
+--> Static methods serve mostly as utility methods or helper methods, 
+    since they can't access or modify a class's state.
+
+Q5. What are attributes?
+--> Attributes are a way to hold data 
+    or describe a state for a class or an instance of a class.
+
+    Attributes defined under the class, arguments goes under the functions. 
+    arguments usually refer as parameter, whereas attributes are the constructor 
+    of the class or an instance of a class.
+
+Q6. What is the term to describe this code?
+    count, fruit, price = (2, 'apple', 3.5)
+-->  tuple unpacking
+
+Q7. What built-in list method would you use to remove items from a list?
+--> .pop(index) method or remove(elements)
+
+*****************************************SYS LIBRARY*******************************************
+Q8. What is one of the most common use of Pythons sys library?
+--> to capture command-line arguments given at a file's runtime
+*************************************************************************************************
+
+Q9. What is the runtime of accessing a value in a dictionary by using its key?
+--> O(1), also called constant time.
+
+Q10. What is the correct syntax for defining a class called Game, 
+    if it inherits from a parent class called LogicGame?
+--> class Game(LogicGame): pass
+
+Q11. DOCTEST?
+--> def sum(a, b):
+    """
+    sum(4, 3)
+    7
+
+    sum(-4, 5)
+    1
+    """
+    return a + b
+
+Q12. What built-in Python data type is commonly used to represent a stack?
+--> list also You can only build a stack from scratch.
+
+*************************************Enumerate*************************************************
+Q13. college_years = ['Freshman', 'Sophomore', 'Junior', 'Senior']
+     return list(enumerate(college_years, 2019))
+--> [(2019, 'Freshman'), (2020, 'Sophomore'), (2021, 'Junior'), (2022, 'Senior')]
+
+*************************************************************************************************
+Q14. How does defaultdict work?
+-->If you try to read from a defaultdict with a nonexistent key,
+   a new default key-value pair will be created for you instead of throwing a KeyError.
+
+**********************************************SELF************************************************
+Q15. What is self used for?
+--> self refers to the instance whose method was called.
+
+    class my_secrets:
+    def __init__(self, password):
+        self.password = password
+        pass
+instance = my_secrets('1234')
+instance.password
+>>>'1234'
+**********************************************************************************************************
+Q16. What is an instance method?
+--> Instance methods can modify the state of an instance or the state of its parent class.
+
+Q17. What built-in Python data type is best suited for implementing a queue?
+--> list
+
+***************************************************MAP***************************************
+Q18. What does the built-in map() function do?
+--> It applies a function to each item in an iterable and returns 
+    the value of that function.
+
+     The synax for map() function is list(map(function,iterable). 
+     the simple area finder using map would be like this:
+
+     import math
+     radius = [1,2,3]
+     area = list(map(lambda x: round(math.pi*(x**2), 2), radius))
+     area
+     >>> [3.14, 12.57, 28.27]
+**************************************************************************************************
+
+Q19. What is the purpose of the pass statement in Python?
+-->  It is a null operation used mainly as a placeholder in functions, classes, etc.
+
+Q20. Assuming the node is in a singly linked list, what is the runtime complexity of searching 
+     for a specific node within a singly linked list?
+--> The runtime is O(n) because in the worst case, the node you are searching for is the last node, 
+    and every node in the linked list must be visited.
+
+Q21.  START FROM STAR 31..
