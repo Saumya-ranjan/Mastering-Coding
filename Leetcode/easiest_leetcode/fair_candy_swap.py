@@ -6,8 +6,4 @@ def func(x,y):
     print(arr)
 
 
-
-
-
-
 func([1,2],[2,3])
