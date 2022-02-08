@@ -1,0 +1,58 @@
+*****************************************Substring****************************************************
+(continious)  
+
+A substring is a contiguous(continuous) sequence of characters present within a string. 
+It is a string present inside a string.
+
+For instance, the substrings of the string “tree” would be: 
+If you carefully see, you will notice that the number of substrings 
+of a string of length N is equal to (N*(N+1))/2. {without including empty string}
+
+'t,' 'r,' 'e,' 'tr,' 'tre,' 'tree,' 're,' 'ree,' 'ee' and. ''
+
+While finding the substring of a string, we must keep in mind that:-
+
+An empty string is also a substring of the given string.
+If the string has a character repeated twice as in the above example of “tree,” 
+we have 'e' repeated twice, so 'e' will be counted only once as a substring.
+
+******************************************Subarray*************************************************
+(continious)
+
+Arrays can be denoted by curly brackets {} or square brackets [].
+
+The example below gives a clear view of the subarrays of an array:
+
+int array[ ] = {1, 5, 4};
+
+Therefore, subarrays for the array {1,5,4} are {1}, {1,5}, {1,5,4}, {5}, {5,4}, {4} and {}
+
+*****************************************Subsequence***********************************************
+(non continious)
+
+A subsequence is a sequence that can be derived from another sequence of elements 
+without changing the order of the remaining elements.
+
+In other words, it's a generalised subarray/substring where the rule of contiguity 
+does not apply. So, a subsequence can be derived from another sequence by deleting 
+some or none of the elements in between but always maintaining the relative order of 
+elements in the original sequence.
+
+For example: {A, B, D} is one of the subsequences of the sequence {A, B, C, D, E} 
+obtained after removing {C} and {E}.
+
+Let us consider another example where we will see all subsequences of an array:
+
+ int array[ ] = {5,6,7,8};
+
+The subsequences are:
+
+ {5}, {6}, {7}, {8}, {5,6}, {5,7},{5,8}, {6,7}, {6,8}, {7,8}, {5,6,7}, {5,6,8}, {5,7,8}, 
+ {6,7,8}, {5,6,7,8}, {}. 
+
+The total number of subsequences of an array or string of length N is 2N 
+(includes the empty subsequence).
+
+Notice that any element of an array or string can be a part of a particular subsequence or not. So there are 2 possibilities for every element.
+
+Hence the total count will be 2 x 2 x 2 ….. N times = 2N .
