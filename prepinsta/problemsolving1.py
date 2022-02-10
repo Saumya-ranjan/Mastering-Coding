@@ -1,15 +1,15 @@
 # longest Substring of vowel in a string (continious)
 
-def func(x):
-    vowel = "aeiou"
+def func(x):                #o(n)
     count,res = 0,0
-    for i in range(len(x)):
-        if x[i] in vowel:
+    for i in x:
+        if i in 'aeiou':
             count+=1
         else:
-            res = max(res,count)
-            count= 0
+            res = max(count,res)
+            count = 0
     print(max(res,count))
-        
 
-func("aeiraeiou")
+
+
+func("ehghgei")
