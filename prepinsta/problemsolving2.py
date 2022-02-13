@@ -6,16 +6,18 @@
 # Explanation: The answer is "abc", with the length of 3.
 
 def func(x):
-    start = 0
-    max_len = 0
+    start = max_len = 0
     hash = {}
-    for i in range(len(x)):
-        if x[i] in hash and start <= hash[x[i]]:
+    for i in range (len(x)):
+        if x[i] in hash and start<=hash[x[i]]:
             start = hash[x[i]]+1
         else:
             max_len = max(max_len,i-start+1)
-        hash[x[i]]=i
+        hash[x[i]] = i
     print(max_len)
+
+
+        
 
     
 
