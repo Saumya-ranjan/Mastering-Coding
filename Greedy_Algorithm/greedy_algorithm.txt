@@ -1,0 +1,20 @@
+
+
+In Greedy Algorithm a set of resources are recursively divided based on the maximum,
+immediate availability of that resource at any given stage of execution.
+
+To solve a problem based on the greedy approach, there are two stages
+
+Scanning the list of items
+Optimization
+These stages are covered parallelly in this Greedy algorithm tutorial, 
+on course of division of the array.
+
+To understand the greedy approach, you will need to have a working knowledge of recursion
+and context switching. This helps you to understand how to trace the code. 
+You can define the greedy paradigm in terms of your own necessary and sufficient statements.
+
+Two conditions define the greedy paradigm.
+
+Each stepwise solution must structure a problem towards its best-accepted solution.
+It is sufficient if the structuring of the problem can halt in a finite number of greedy steps.
