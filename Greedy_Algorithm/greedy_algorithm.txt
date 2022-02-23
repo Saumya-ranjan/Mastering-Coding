@@ -1,5 +1,3 @@
-
-
 In Greedy Algorithm a set of resources are recursively divided based on the maximum,
 immediate availability of that resource at any given stage of execution.
 

@@ -1,0 +1,7 @@
+Dynamic problem is a way to solve the problem by breaking it down to subproblem and solving 
+each subproblem adn storing the solution 
+
+Memoization:  specific type of caching. it is a way to remember a solution to a subproblem 
+so u dont need to calculate it again.
+
+caching: way to speed of program and hold data in an easily accessible box
