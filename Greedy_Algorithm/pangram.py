@@ -12,4 +12,4 @@ def func(x):
     else:
         print('0')
 
-func(["the", "quick", "brown", "fox", "jumps", "over", "the", "lazy", "dog"])
+func(["jwtucoucmdfwxxqnxzkaxoglszmfrcvjoiunqqausaxxaaijyqdqgvdnqcaihwilqkpivenpnekioyqujrdrovqrlxovcucjqzjsxmllfgndfprctxvxwlzjtciqxgsxfwhmuzqvlksyuztoetyjugmswfjtawwaqmwyxmvo"])
