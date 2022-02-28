@@ -1,7 +1,6 @@
 def func(x,y):
     arr1 = []
     arr = []
-    count = 0
     z = x.index(y)
     for i in x[z+1:]:
         if i == '(':
