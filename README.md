@@ -16,7 +16,7 @@ This Repository Contains all my codes which I am writting for competitive Coding
 3. Dynamic Programming
 4. Greedy Algorithms
 5. Learning Experience [My own learning or error handling]
-6. <b>Leetcode [Problems that i am solving on leetcode] </b>
+6. Leetcode [Problems that i am solving on leetcode]
 
 
 
