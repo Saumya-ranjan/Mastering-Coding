@@ -10,7 +10,6 @@ This Repository Contains all my codes which I am writting for competitive Coding
 
 ## This Repo is structured in 6 parts
 
-```
 1. Algorithms [Recursion,Sorting]
 2. Data Structures [Arrays, Hash tables or Dictionaries]
 3. Dynamic Programming
@@ -18,12 +17,9 @@ This Repository Contains all my codes which I am writting for competitive Coding
 5. Learning Experience [My own learning or error handling]
 6. Leetcode [Problems that i am solving on leetcode]
 
-
-
 ## Getting Started
 
 **Fork this repository and clone on your local machine**
-```
 
 git clone https://github.com/Saumya-ranjan/Mastering-Coding.git
 
