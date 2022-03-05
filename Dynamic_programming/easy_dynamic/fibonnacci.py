@@ -21,17 +21,24 @@
 #         print(arr[x-1])
 # func(200)
 
-def func(x):
-    arr = []
-    a = 0
-    b = 1
-    for i in range(x):
-        arr.append(a) 
-        a,b = b,a+b       #dont do a = b and b = a+b seperate as it changes value
+# def func(x):                       #Bottom-up Approach
+#     arr = []
+#     a = 0
+#     b = 1
+#     for i in range(x):
+#         arr.append(a) 
+#         a,b = b,a+b       #dont do a = b and b = a+b seperate as it changes value
           
 
-    print(arr)
+#     print(arr)
 
 
 
-func(53)
+# func(53)
+
+
+def func(x):
+    print(x[::-1])
+
+
+func(["h","e","l","l","o"])

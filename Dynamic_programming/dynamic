@@ -5,3 +5,14 @@ Memoization:  specific type of caching. it is a way to remember a solution to a 
 so u dont need to calculate it again.
 
 caching: way to speed of program and hold data in an easily accessible box
+
+*writes down “1+1+1+1+1+1+1+1 =” on a sheet of paper*
+“What’s that equal to?”
+*counting* “Eight!”
+*writes down another “1+” on the left*
+“What about that?”
+*quickly* “Nine!”
+“How’d you know it was nine so fast?”
+“You just added one more”
+“So you didn’t need to recount because you remembered there were eight!
+ Dynamic Programming is just a fancy way to say ‘remembering stuff to save time later'”
