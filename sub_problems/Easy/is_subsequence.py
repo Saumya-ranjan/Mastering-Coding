@@ -5,10 +5,10 @@ def func(s,t):
         return True
     subsequence=0
     for i in range(len(t)):
-            if s[subsequence] == t[i]:
-                subsequence+=1
-            if len(s) == subsequence:
-                return True
+        if s[subsequence] == t[i]:
+            subsequence+=1
+        if len(s) == subsequence:
+            return True
     return False
 
 print(func( 'let','leetcode'))
