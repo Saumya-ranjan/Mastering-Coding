@@ -5,6 +5,7 @@ def func(arr):
         max_sum = max(curr_sum,max_sum)
     print(max_sum)
 
+ 
         
 
 
