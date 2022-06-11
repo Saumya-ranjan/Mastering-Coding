@@ -1,7 +1,3 @@
-from heapq import merge
-from this import d
-
-
 def func(arr):
     arr.sort()
     merged=  [arr[0]]
