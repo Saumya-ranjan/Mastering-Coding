@@ -10,7 +10,6 @@ def func(arr,target):
                     dp[i+j] = [*dp[i],j] 
         if dp[target] not in arr1:
             arr1.append(dp[target])
-    print(arr1)
     return dp[target]
 
 
