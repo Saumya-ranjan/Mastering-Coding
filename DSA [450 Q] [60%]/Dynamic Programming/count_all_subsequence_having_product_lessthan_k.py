@@ -27,14 +27,14 @@ def func(arr, index, subarr):
 arr = [1, 2, 3, 4]
 
 func(arr, 0, [])
-
-arr3= []
-for i in arr1:
-    count = 1
-    for j in i:
-        count*=j
-    if count<k:
-        arr3.append(count)
-print(len(arr3))
+print(arr1)
+# arr3= []
+# for i in arr1:
+#     count = 1
+#     for j in i:
+#         count*=j
+#     if count<k:
+#         arr3.append(count)
+# print(len(arr3))
     
         
