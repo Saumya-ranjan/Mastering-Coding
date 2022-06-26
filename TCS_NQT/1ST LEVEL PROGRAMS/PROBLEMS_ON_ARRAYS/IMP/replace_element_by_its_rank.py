@@ -12,11 +12,4 @@ def func(arr):
         arr2.append(hash[i])
     print(arr2)
 
-
-    
-
-
-
-
-
 func([1 ,5 ,8 ,15 ,8 ,25 ,9])
