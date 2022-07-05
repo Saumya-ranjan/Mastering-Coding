@@ -23,20 +23,18 @@
 
 # DYNAMIC APPROACH --> TABULATION
 
-def func(arr,target):
-    arr.sort()
-    # base case:
-    if len(arr) == 0 or target ==0:
-        return 0
-    dp = [[0 for _ in range(target+1)] for _ in range(len(arr)+1)]
+def coin_change(coins,target):
+    dp = [[0 for _ in range(target+1)] for _ in range(len(coins)+1)]
     for i in range(len(dp)):
-        for j in range(1,target+1):
-            dp[0][j] = float('inf')
-            if arr[i-1] > j:
-                dp[i][j] = dp[i-1][j]
+        for j in range(target+1):
+            if i==0 and j == 0:
+                dp[i][j] = 0
+            elif i == 0:
+                dp[i][j] = float('inf')
+            elif coins[i-1] <= j:
+                dp[i][j] =min( dp[i-1][j],1+dp[i][j-(coins[i-1])])
             else:
-                dp[i][j] = min(dp[i-1][j], dp[i][j-arr[i-1]]+1)
+                dp[i][j] = dp[i-1][j]
     print(dp)
 
-
-func([9,6,5,1],11)
+coin_change([1,2,3],5)

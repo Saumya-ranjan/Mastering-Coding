@@ -1,7 +1,8 @@
-1) 0/1 Knapsack --> [Subsets ke Questions]
+1. 0/1 Knapsack --> [Subsets ke Questions]
 
-2) Unbounded Knapsack
+2. Unbounded Knapsack --> [Infinite amount of elements to pick up from]
+
+3. Longest Common Substring/Subsequeunce
 
 Shortest Path (eg: Unique Paths I/II)
 Fibonacci Sequence (eg: House Thief, Jump Game)
-Longest Common Substring/Subsequeunce
