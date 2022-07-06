@@ -9,4 +9,4 @@ def repeating_subsequence(str1):
     print(dp)
 
 
-repeating_subsequence("aabebcdd")
+repeating_subsequence("babad")
