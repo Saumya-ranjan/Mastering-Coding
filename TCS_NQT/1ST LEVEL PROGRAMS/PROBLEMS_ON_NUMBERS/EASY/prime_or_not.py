@@ -10,4 +10,4 @@ def func(n):
     
 
 
-func(3)
+func(2)

@@ -10,7 +10,7 @@ def longest_common_substring(str1,str2):
     for i in range(len(dp)):
         for j in range(len(dp[i])):
             arr.append(dp[i][j])
-    print(max(arr))
+    print(arr)
 
 
 
