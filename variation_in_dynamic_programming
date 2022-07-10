@@ -6,3 +6,7 @@
 
 Shortest Path (eg: Unique Paths I/II)
 Fibonacci Sequence (eg: House Thief, Jump Game)
+
+
+Equilibrium of array question is a great question --> take all sum of array
+in one side right and in left do minus and see:
