@@ -16,4 +16,4 @@ def count_subset_sum(arr,target):
 
 
 
-count_subset_sum([5,5,3,2,6,4],10)
+count_subset_sum([2,3,6,7],7)
