@@ -14,3 +14,23 @@ def is_subsequence(str1,str2):
     return False 
 
 print(is_subsequence('AXY','ADXCPY'))
+
+
+
+# Time Limit Exceeding
+
+def isSubsequence(s, t):
+    arr = []
+    def func(s,t,output,arr):
+        if len(t) == 0:
+            if output == s:
+                arr.append(tuple(output))
+            return 
+        func(s,t[1:],output+t[0],arr)
+        func(s,t[1:],output,arr)
+
+    res = func(s,t,"",arr)
+    if len(arr) > 0:
+        return True
+    return False
+print(isSubsequence('abc','ahgbdc'))
