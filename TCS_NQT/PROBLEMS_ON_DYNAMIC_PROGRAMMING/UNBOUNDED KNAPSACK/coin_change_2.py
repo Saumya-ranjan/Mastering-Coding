@@ -37,4 +37,4 @@ def coin_change(coins,target):
                 dp[i][j] = dp[i-1][j]
     print(dp)
 
-coin_change([1,2,3],5)
+coin_change([1,2,3],4)
