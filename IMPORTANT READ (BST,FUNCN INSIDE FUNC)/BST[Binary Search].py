@@ -1,5 +1,5 @@
 # General Format Of BST
-
+# Two pointer 
 def binary_search(array) -> int:
     def condition(value):
         pass
