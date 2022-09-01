@@ -12,4 +12,4 @@ def coin_change(arr,target):
             else:
                dp[i][j] =  dp[i-1][j]
     print(dp)
-coin_change([1,2,3], 4)
+coin_change([1,2,3], 3)
