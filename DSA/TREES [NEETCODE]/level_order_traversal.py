@@ -1,0 +1,1 @@
+print(dequeue([2]))

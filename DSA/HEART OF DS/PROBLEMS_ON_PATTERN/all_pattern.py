@@ -245,4 +245,42 @@
         
 # *******************************************************************************************************
 
-# 10) pattern 10
+# 10) pattern 10:
+
+# 12345677654321
+# 123456**654321
+# 12345****54321
+# 1234******4321
+# 123********321
+# 12**********21
+# 1************1
+# > 
+
+# n = int(input('hello give ur input:'))
+# count = 1
+# counter = 0
+# terminate = n
+# for i in range(1,n+1):
+#     print(i, end='' )
+# for j in range(n, 0,-1):
+#     print(j , end='')
+# print()
+# for i in range(n-1):
+#     arr = []
+#     arr1 =[]
+#     for j in range(n):
+#         if count == terminate:
+#             terminate-=1
+#             count = 1
+#             arr.append(str('*'))
+#             print('*' , end = '')
+#             arr.append(str(counter*'*'))
+#             print(counter * '*', end='')
+#             counter+=1
+#             print(''.join(arr) ,end='')
+#             break
+#         arr1.append(str(count))
+#         print(count , end = "")
+#         count+=1
+#     print(''.join(arr1)[::-1], end='')
+#     print()
