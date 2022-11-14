@@ -1,5 +1,6 @@
 # lcm = num1*num2 / gcd(num1, num2)
 
+# lcm(a,b) -- > built-in function
 def func(num1,num2):
     arr = []
     arr1 = []
